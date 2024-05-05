@@ -1,0 +1,207 @@
+
+<body>
+    <section class="jumbotron">
+            <nav class="nav-bar">
+                <div class="icon-nav">
+                <img src="..\assets\images\logouptime.png" alt="">
+                </div>
+
+                <ul class="list-nav-bar active">
+                    <li class="list-item"><a (click)="onClick('service')">HOME</a></li>
+                    <li class="list-item"><a (click)="onClick('service')">Services</a></li>
+                    <li class="list-item"><a (click)="onClick('network')">Network</a></li>
+                    <li class="list-item"><a (click)="onClick('pricing')">Pricing</a></li>
+                    <li class="list-item"><a (click)="onClick('contact')">Contact</a></li>
+
+                    <li class="list-item">
+                    <a href="login">Get The Application</a>      
+                    </li>
+                </ul>
+                <div class="fas burger-menu" id="burger-menu">&#9776;</div>
+            
+
+            </nav>
+        <div class="main">
+            <div class="main-content">
+                <h1>The Future Of <span>EV Charging </span> Is Here</h1>
+                <a class="btn" (click)="onClick('service')">Discover !</a>
+            </div>
+        </div>  
+    </section>
+
+
+    <section id="service" class="services">
+        <div class="header">
+            <h1 class="headerTitle">Services</h1>
+            <h2 class="headerDescription">We Empower Journeys With Seamless Charging Excellence.</h2>
+        </div>
+
+       <div class="cards">
+            <div class="card">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="card-inner">
+                    <div class="card-icon">
+                        <img src="..\assets\icons\electric.png" width="60px" alt="">
+                    </div>
+                    <div class="card-title">
+                        <h4>EV Charging</h4>
+                    </div>
+                    <div class="card-desc">
+                        <h5>We allow drivers to manage their charging needs with ease, where they can schedule charging sessions at their preferred locations.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="card-inner">
+                    <div class="card-icon">
+                        <img src="..\assets\icons\electric.png" width="60px" alt="">
+                    </div>
+                    <div class="card-title">
+                        <h4>Smart Network</h4>
+                    </div>
+                    <div class="card-desc">
+                        <h5>We provide solutions that enhance the performance and reliability of your charging infrastructure, ensuring user satisfaction.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="card-inner">
+                    <div class="card-icon" >
+                        <img src="..\assets\icons\electric.png" width="60px" alt=""></div>
+                    <div class="card-title">
+                        <h4>Stations Management</h4>
+                    </div>
+                    <div class="card-desc">
+                        <h5>We empower suppliers to optimize their charging infrastructure, reduce downtime, and deliver a seamless experience to their customers.</h5>
+                    </div>
+                </div>
+            </div>
+    
+       </div>    
+    </section>
+
+    <section id="network" class="network">
+        <div class="header">
+            <h1 class="headerTitle">Network</h1>
+            <h2 class="headerDescription">We Are Almost Everywhere , Empowering Everyone With Excellence.</h2>
+        </div>
+    
+        <div class="maps">        
+            <div class="subscribe">
+                <p>Find Your Station !</p>
+                <input placeholder="Enter Region Name" class="subscribe-input" name="email" type="email">
+                <br>
+                <div class="submit-btn">Search Now !</div>
+            </div>
+           <iframe class="mapy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51757.48801550455!2d10.576854770311165!3d35.82832751998676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130275759ac9d10d%3A0x698e3915682cef7d!2sSousse!5e0!3m2!1sfr!2stn!4v1714076565997!5m2!1sfr!2stn" style="border:5px solid #0EBC83; padding: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div> 
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="header">
+            <h1 class="headerTitle">Pricing</h1>
+            <h2 class="headerDescription">We Craft Quality At The Right Price Point.</h2>
+        </div>
+        <div class="cards">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <h1>EV UPTIME DIRECT</h1> 
+                    <br>
+                    <h5>&#10003;No Monthly Fees</h5>
+                        <br>
+                        <h5>&#10003;No Subscription</h5>
+                        <br>
+                    <h5>&#10003;Price Includes TVA</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <h5>ONLY</h5> 
+                    <h1>3.5 DT / kWH</h1>
+                    <a href="login"> 
+                        <p>Book Now</p> 
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <h1>EV UPTIME PASSPORT</h1> 
+                    <br>
+                    <h5>&#10003;+ 15 DT Per Month</h5>
+                        <br>
+                        <h5>&#10003;Cancellation at any time with one month prior notice</h5>
+                        <br>
+                    <h5>&#10003;Price Includes TVA</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <h5>ONLY</h5> 
+                    <h1>3.2 DT / kWH</h1>
+                    <a href="login"> 
+                        <p>Book Now</p> 
+                    </a>
+                  </div>
+                </div>
+              </div>
+       </div>
+
+       
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="header">
+            <h1 class="headerTitle">Contact</h1>
+            <h2 class="headerDescription">We Await Your Reach , Weaving Connections Timeless And Bright.</h2>
+        </div>
+        <div class="formElements">
+            <div class="form-container">
+                <div class="form">
+                    <input placeholder="Name" type="text" class="input">
+                    <input placeholder="Email" id="mail" type="email" class="input">
+                    <textarea placeholder="Send us your thoughts before booking !" rows="10" cols="30" id="message" name="message" class="textarea"></textarea>
+                    <div class="button-container">
+                    <div class="send-button">Send</div>
+                    <div class="reset-button-container">
+                        <div id="reset-btn" class="reset-button">Reset</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <footer class="new_footer_area bg_color">
+        <div class="new_footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="header">
+                        <h2 style="color: black;" class="headerDescription">Embrace The Future <br>
+                             Drive Towards Sustainability With Electric Charging Cars.</h2>
+                             <br>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bg">
+                <div class="footer_bg_one"></div>
+                <div class="footer_bg_two"></div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-sm-7">
+                        <p class="mb-0 f_400">© Crafted By Eya BELGHITH .. 2024 All rights reserved.</p>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
