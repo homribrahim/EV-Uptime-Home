@@ -5,12 +5,15 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { HomeComponent } from './components/home/home.component';
+import { SignUpSupplierComponent } from './components/sign-up-supplier/sign-up-supplier.component';
+
 
 const routes: Routes = [
   { path: '', component: LandingPageComponent },
   { path: 'landing', component: LandingPageComponent },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
+  { path: 'supsignup', component: SignUpSupplierComponent },
   { path: 'home', component: HomeComponent },
   { path: '**', component: NotFoundComponent },
 ];

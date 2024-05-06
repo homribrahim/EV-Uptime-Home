@@ -50,7 +50,7 @@
            Sign In To Proceed
           </div>
           <div class="panel-body p-3">
-            <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+            <form [formGroup]="loginForm">
               <div class="form-group pt-3">
                 <div
                   class="input-field"
@@ -111,7 +111,11 @@
               <button type="submit" class="button">Sign in</button>
               <div class="text-center text-muted">
                 Don't have an account ?
-                <a id="forgot" href="#" routerLink="/signup">Sign up</a>
+                <br>
+                <a id="forgot" href="#" routerLink="/signup">Sign up as Client</a>
+                <br>
+                <a id="forgot" href="#" routerLink="/supsignup">Sign up as Supplier</a>
+
               </div>
             </form>
           </div>

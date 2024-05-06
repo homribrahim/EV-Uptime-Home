@@ -11,6 +11,7 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { HomeComponent } from './components/home/home.component';
+import { SignUpSupplierComponent } from './components/sign-up-supplier/sign-up-supplier.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { HomeComponent } from './components/home/home.component';
     LandingPageComponent, 
     NotFoundComponent,
     HomeComponent,
+    SignUpSupplierComponent,
  
   ],
   imports: [

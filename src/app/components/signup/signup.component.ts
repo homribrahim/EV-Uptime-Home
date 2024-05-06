@@ -36,7 +36,4 @@ export class SignupComponent implements OnInit {
     this.isText ? (this.type = 'text') : (this.type = 'password');
   }
 
-  onSubmit() {
-  
-  }
 }
