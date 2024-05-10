@@ -1,0 +1,46 @@
+.nav-items {
+    padding-top: 40px;
+    margin-top: -160px;
+
+    h3 {
+      margin-left: 2.8rem;
+      font-family: "Jomhuria", serif;
+      font-size: 3rem
+
+    }
+   
+    .nav-item {
+      display: flex;
+      gap: 20px;
+      font-family: "Jomhuria", serif;
+      padding:5px 20px;
+      font-size: 2rem;
+      color: black;
+      cursor: pointer;
+      @media only screen and (max-width: 1300px) {
+        padding: 25px 40px;
+      }
+      &:hover {
+        background-color: #00E69C;
+        color: white;
+        border-radius: 10px;
+      }
+      .fa-solid {
+        margin-top: 11px;
+        font-size: 20px;
+      }
+      span {
+        display: inline;
+        @media only screen and (max-width: 1300px) {
+          display: none;
+        }
+      }
+     
+    }
+  }
+  @media only screen and (max-width: 1300px) {
+    h3 
+    {
+      display: none;
+    }
+  }

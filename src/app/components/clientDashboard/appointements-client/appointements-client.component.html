@@ -1,0 +1,63 @@
+
+<div class="headerElements">
+    <div class="flexHeader">
+        <h1>Appointements</h1>
+    </div>
+    <!-- <button class="btn" routerLink="">
+        Add Appointement
+    </button> -->
+</div>
+<br>
+<br>
+<br>
+<br>
+
+
+<table class="table tabl-striped table-boardered">
+    <thead>
+        <tr>
+            <th>Registration Number</th>
+            <th>Date</th>
+            <th>Chassis</th>
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Supplier</th>
+            <th>Region</th>              
+            <th>Location</th>
+            <th>Power</th>
+            <th>Plugger</th>
+            <th>Charging Level</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr *ngFor="let appointement of appointementsData">
+            <td>
+                {{appointement.registration_number}}
+            </td>
+
+            <td>{{appointement.date}}</td>
+
+            <td>{{appointement.chassis}}</td>
+
+            <td>{{appointement.brand}}</td>
+
+            <td>{{appointement.model}}</td>
+
+            <td>{{appointement.supplier}}</td>
+
+            <td>{{appointement.region}}</td>
+
+            <td>{{appointement.location}}</td>
+
+            <td>{{appointement.battery_power}}</td>
+
+            <td>{{appointement.plugger}}</td>
+
+            <td>{{appointement.charging_level}}</td>
+
+          
+        </tr>
+
+    </tbody>
+</table>

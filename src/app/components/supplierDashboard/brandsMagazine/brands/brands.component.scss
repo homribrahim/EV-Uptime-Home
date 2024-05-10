@@ -1,0 +1,40 @@
+.headerElements
+{
+    display: flex;
+    justify-content: space-between;
+}
+.btn
+{
+    background-color:#00E69C;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-family: "Jomhuria", serif;
+    font-size: 1.9rem;
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-left: 20px;
+  }
+  /* Zebra striping */
+ 
+  th { 
+    background: white; 
+    color: #9e9ea7; 
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: "Jomhuria", serif;
+   
+  }
+  td, th { 
+    padding: 20px; 
+    text-align: left;
+    font-family: "Jomhuria", serif;
+    font-size: 1.8rem;
+  }
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+  
