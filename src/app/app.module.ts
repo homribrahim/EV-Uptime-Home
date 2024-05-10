@@ -29,6 +29,9 @@ import { SideNavClientComponent } from './components/clientDashboard/side-nav-cl
 import { DashboardClientComponent } from './components/clientDashboard/dashboard-client/dashboard-client.component';
 import { AppointementsClientComponent } from './components/clientDashboard/appointements-client/appointements-client.component';
 import { LoginClientComponent } from './components/login-client/login-client.component';
+import { AddAppointementComponent } from './components/clientDashboard/add-appointement/add-appointement.component';
+import { PaymentComponent } from './components/clientDashboard/payment/payment.component';
+import { ProfileComponent } from './components/clientDashboard/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +59,9 @@ import { LoginClientComponent } from './components/login-client/login-client.com
     DashboardClientComponent,
     AppointementsClientComponent,
     LoginClientComponent,
+    AddAppointementComponent,
+    PaymentComponent,
+    ProfileComponent,
  
   ],
   imports: [

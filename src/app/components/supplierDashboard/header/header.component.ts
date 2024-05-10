@@ -19,7 +19,6 @@ export class HeaderComponent implements OnInit {
           console.log(res);
           this.message = `${res.stationName}`;
         }
-   
     )
   }
 

@@ -16,9 +16,10 @@ import { ModelsComponent } from './components/supplierDashboard/brandsMagazine/m
 import { DashboardClientComponent } from './components/clientDashboard/dashboard-client/dashboard-client.component';
 import { AppointementsClientComponent } from './components/clientDashboard/appointements-client/appointements-client.component';
 import { LoginClientComponent } from './components/login-client/login-client.component';
-
-
-
+import { AddAppointementComponent } from './components/clientDashboard/add-appointement/add-appointement.component';
+import { PaymentComponent } from './components/clientDashboard/payment/payment.component';
+import { ProfileComponent } from './components/clientDashboard/profile/profile.component';3
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 
 const routes: Routes = [
@@ -32,6 +33,10 @@ const routes: Routes = [
   { path: 'dashboardClient', component: DashboardClientComponent,
   children: [
     { path: 'appointements', component: AppointementsClientComponent },
+    { path: 'appointements/add-appointement', component: AddAppointementComponent },
+    { path: 'appointements/add-appointement/payment', component: PaymentComponent },
+    { path: 'profile', component: ProfileComponent },
+
   ]
    },
 
@@ -44,12 +49,10 @@ const routes: Routes = [
     { path: "brands/:id/models", component: ModelsComponent },
     { path: 'pluggers', component: PluggersComponent },
     { path: 'pluggers/add-plugger', component: AddPluggerComponent },
-
-
   ]
    },
-/*   { path: '**', component: NotFoundComponent },
- */];
+  { path: '**', component: NotFoundComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
