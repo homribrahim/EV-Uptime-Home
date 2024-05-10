@@ -1,6 +1,8 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+
 
 
 @Component({
@@ -15,12 +17,22 @@ export class SignUpSupplierComponent implements OnInit {
   isText: boolean = false;
   eyeIcon: string = 'fa-eye-slash';
   loader=true;
+  
 
   constructor(
+    
     private fb: FormBuilder,
+    private http:HttpClient,
     private router: Router,
+    
     ) 
   {}
+
+  hideShowPass() {
+    this.isText = !this.isText;
+    this.isText ? (this.eyeIcon = 'fa-eye') : (this.eyeIcon = 'fa-eye-slash');
+    this.isText ? (this.type = 'text') : (this.type = 'password');
+  }
 
   ngOnInit() {
     setTimeout(() => {
@@ -34,16 +46,26 @@ export class SignUpSupplierComponent implements OnInit {
       Location: ['', Validators.required],
       Address: ['', Validators.required],
       Email: ['', Validators.required],
-      email: ['', Validators.required],
       password: ['', Validators.required],
     });
   }
 
-  hideShowPass() {
-    this.isText = !this.isText;
-    this.isText ? (this.eyeIcon = 'fa-eye') : (this.eyeIcon = 'fa-eye-slash');
-    this.isText ? (this.type = 'text') : (this.type = 'password');
+  submit(): void 
+  {
+    console.log(this.signUpForm.getRawValue())
+    this.http.post('http://localhost:8000/api/register',this.signUpForm.getRawValue())
+      .subscribe(res=>
+        {
+         
+          setTimeout(() => {
+            this.router.navigate(["/login"]);
+          }, 1000);
+      
+        }
+      )
   }
+
+  
 
 
 

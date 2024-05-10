@@ -1,6 +1,9 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,

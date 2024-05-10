@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "registration_number":"1340 TU 80",
+        "date":"24/05/2024 18:30",
+        "chassis":"44444",
+        "brand":"Audi",
+        "model":"Camry",
+        "supplier":"shell",
+        "region":"sousse",
+        "location":"sahloul",
+        "battery_power":80,
+        "plugger":"EV Charger",
+        "charging_level":"Level 3"
+    } ,
+    {
+        "id":2,
+        "registration_number":"1340 TU 180",
+        "date":"24/04/2024 11:30",
+        "chassis":"55555",
+        "brand":"Audi",
+        "model":"RAV4",
+        "supplier":"shell",
+        "region":"sousse",
+        "location":"sahloul",
+        "battery_power":80,
+        "plugger":"AC Charger",
+        "charging_level":"Level 2"
+    }
+]

@@ -56,13 +56,13 @@
           </div>
           <hr />
           <div class="panel-body p-3">
-            <form [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
+            <form [formGroup]="signUpFormClient" >
               <div class="form-group pt-3">
                 <div
                   class="input-field"
                   [class.error]="
-                    signUpForm.controls['firstName'].dirty &&
-                    signUpForm.hasError('required', 'firstName')
+                  signUpFormClient.controls['firstName'].dirty &&
+                  signUpFormClient.hasError('required', 'firstName')
                   "
                 >
                   <input
@@ -76,8 +76,8 @@
                 <div
                   class="input-field"
                   [class.error]="
-                    signUpForm.controls['lastName'].dirty &&
-                    signUpForm.hasError('required', 'lastName')
+                  signUpFormClient.controls['lastName'].dirty &&
+                  signUpFormClient.hasError('required', 'lastName')
                   "
                 >
                   <input
@@ -91,8 +91,8 @@
                 <div
                   class="input-field"
                   [class.error]="
-                    signUpForm.controls['email'].dirty &&
-                    signUpForm.hasError('required', 'email')
+                  signUpFormClient.controls['email'].dirty &&
+                  signUpFormClient.hasError('required', 'email')
                   "
                 >
                   <input
@@ -106,8 +106,8 @@
                 <div
                   class="input-field"
                   [class.error]="
-                    signUpForm.controls['password'].dirty &&
-                    signUpForm.hasError('required', 'password')
+                  signUpFormClient.controls['password'].dirty &&
+                  signUpFormClient.hasError('required', 'password')
                   "
                 >
                   <input

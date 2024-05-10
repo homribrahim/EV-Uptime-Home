@@ -1,3 +1,31 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Jomhuria&display=swap');
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(-10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+.jomhuria-regular {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.fahkwang-extralight {
+    font-family: "Fahkwang", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
 @font-face {
   font-family: Poppins-Regular;
   src: url("/assets/fonts/poppins/Poppins-Regular.ttf");
@@ -38,9 +66,7 @@
   animation: rolling 1s linear infinite;
 }
 
-#rim {
-  fill: white;
-}
+
 
 #tire {
   fill: white;
@@ -55,6 +81,14 @@
   background-color:#01aa9b;
   animation: road-move 2s linear infinite;
 }
+
+.flexHeader
+{
+  color: #00E69C;
+  font-size: 4.5rem;
+  font-family: "Jomhuria", serif;
+}
+
 
 @keyframes rolling {
   to {

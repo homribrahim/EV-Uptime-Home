@@ -8,7 +8,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./signup.component.css'],
 })
 export class SignupComponent implements OnInit {
-  public signUpForm!: FormGroup;
+  public signUpFormClient!: FormGroup;
   type: string = 'password';
   isText: boolean = false;
   eyeIcon: string = 'fa-eye-slash';
@@ -22,7 +22,7 @@ export class SignupComponent implements OnInit {
     setTimeout(() => {
       this.loader=false;
     }, 1000);
-    this.signUpForm = this.fb.group({
+    this.signUpFormClient = this.fb.group({
       firstName: ['', Validators.required],
       lastName: ['', Validators.required],
       email: ['', Validators.required],

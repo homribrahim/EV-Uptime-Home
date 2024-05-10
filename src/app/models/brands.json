@@ -1,0 +1,134 @@
+[
+      {
+        "id": 1,
+        "brand_name": "Audi",
+        "description": "Audi is german brand",
+        "registration_date":"14/11/2000 19:30",
+        "models": [
+          {
+            "model_name": "Camry",
+            "model_description": "The Toyota Camry is a mid-size sedan known for its comfort, safety features, and smooth ride.",
+            "class": "Mid-Size Sedan",
+            "year": 2022,
+            "image_url": "http://m.gettywallpapers.com/iphone/wp-content/uploads/2022/06/Amazing-Audi-A6-iPhone-Wallpaper.jpg"
+          },
+          {
+            "model_name": "RAV4",
+            "model_description": "The Toyota RAV4 is a popular compact SUV offering versatility, advanced safety tech, and fuel efficiency.",
+            "class": "Compact SUV",
+            "year": 2023,
+            "image_url": "https://lh5.googleusercontent.com/proxy/CV_0aAEp1QgpDivLpRArNu5MZeAdL3fr7_uf8u-eK-5x2RRnAXqoSaAl0qZiW922QORAz0zHOqPSbqZxKCLHP-1p02pg3HxJtzPczq7BNS-Hyn-HQJz3ea_jjqnVmwI3d3qEOhJE0cxv3GSsm84"
+          },
+          {
+            "model_name": "R6",
+            "model_description": "The Toyota Camry is a mid-size sedan known for its comfort, safety features, and smooth ride.",
+            "class": "Mid-Size Sedan",
+            "year": 2022,
+            "image_url": "http://m.gettywallpapers.com/iphone/wp-content/uploads/2022/06/Audi-A6-8k-iPhone-Wallpaper.jpg"
+          },
+          {
+            "model_name": "Q8",
+            "model_description": "The Toyota RAV4 is a popular compact SUV offering versatility, advanced safety tech, and fuel efficiency.",
+            "class": "Compact SUV",
+            "year": 2023,
+            "image_url": "http://m.gettywallpapers.com/iphone/wp-content/uploads/2022/06/Audi-A6-HD-iPhone-Wallpaper.jpg"
+          },
+          {
+            "model_name": "R8",
+            "model_description": "The Toyota RAV4 is a popular compact SUV offering versatility, advanced safety tech, and fuel efficiency.",
+            "class": "Compact SUV",
+            "year": 2023,
+            "image_url": "http://m.gettywallpapers.com/iphone/wp-content/uploads/2022/06/Audi-A6-iPhone-Wallpaper-4k.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "brand_name": "BMW",
+        "description": "BMW is a German luxury vehicle manufacturer known for its performance-oriented cars and advanced technology.",
+        "registration_date":"14/11/2000 19:30",
+        "models": [
+          {
+            "model_name": "3 Series",
+            "model_description": "The BMW 3 Series is a compact executive car offering a blend of luxury, sportiness, and cutting-edge features.",
+            "class": "Compact Executive Car",
+            "year": 2022,
+            "image_url": "https://example.com/bmw_3series.jpg"
+          },
+          {
+            "model_name": "X5",
+            "model_description": "The BMW X5 is a luxury mid-size SUV known for its spacious interior, powerful engines, and premium amenities.",
+            "class": "Mid-Size Luxury SUV",
+            "year": 2023,
+            "image_url": "https://example.com/bmw_x5.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "brand_name": "Tesla",
+        "description": "Tesla is an American electric vehicle manufacturer known for its innovative technology, performance, and sustainability efforts.",
+        "registration_date":"14/11/2000 19:30",
+        "models": [
+          {
+            "model_name": "Model S",
+            "model_description": "The Tesla Model S is a premium electric sedan known for its long range, high performance, and futuristic features.",
+            "class": "Electric Sedan",
+            "year": 2022,
+            "image_url": "https://example.com/tesla_modelS.jpg"
+          },
+          {
+            "model_name": "Model Y",
+            "model_description": "The Tesla Model Y is a compact electric SUV offering ample space, advanced autopilot features, and impressive range.",
+            "class": "Electric SUV",
+            "year": 2023,
+            "image_url": "https://example.com/tesla_modelY.jpg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "brand_name": "Mercedes-Benz",
+        "description": "Mercedes-Benz is a German luxury automobile manufacturer known for its refined craftsmanship, advanced technology, and premium vehicles.",
+        "registration_date":"14/11/2000 19:30",        
+        "models": [
+          {
+            "model_name": "E-Class",
+            "model_description": "The Mercedes-Benz E-Class is a luxury mid-size car offering a blend of comfort, performance, and cutting-edge features.",
+            "class": "Mid-Size Luxury Car",
+            "year": 2022,
+            "image_url": "https://example.com/mercedes_eClass.jpg"
+          },
+          {
+            "model_name": "GLC",
+            "model_description": "The Mercedes-Benz GLC is a compact luxury SUV known for its plush interior, advanced safety features, and smooth ride.",
+            "class": "Compact Luxury SUV",
+            "year": 2023,
+            "image_url": "https://example.com/mercedes_glc.jpg"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "brand_name": "Ford",
+        "description": "Ford is an American automaker known for its wide range of vehicles, from trucks and SUVs to sedans and sports cars.",
+        "registration_date":"14/11/2000 19:30",
+        "models": [
+          {
+            "model_name": "Mustang",
+            "model_description": "The Ford Mustang is an iconic sports car known for its powerful engines, classic design, and thrilling performance.",
+            "class": "Sports Car",
+            "year": 2022,
+            "image_url": "https://example.com/ford_mustang.jpg"
+          },
+          {
+            "model_name": "Explorer",
+            "model_description": "The Ford Explorer is a popular mid-size SUV offering rugged capability, spacious interior, and advanced technology.",
+            "class": "Mid-Size SUV",
+            "year": 2023,
+            "image_url": "https://example.com/ford_explorer.jpg"
+          }
+        ]
+      }
+    
+]

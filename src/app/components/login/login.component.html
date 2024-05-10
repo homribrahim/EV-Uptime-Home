@@ -50,17 +50,17 @@
            Sign In To Proceed
           </div>
           <div class="panel-body p-3">
-            <form [formGroup]="loginForm">
+            <form [formGroup]="loginForm" (submit)="submit()">
               <div class="form-group pt-3">
                 <div
                   class="input-field"
                   [class.error]="
-                    loginForm.controls['email'].dirty &&
-                    loginForm.hasError('required', 'email')
+                    loginForm.controls['Email'].dirty &&
+                    loginForm.hasError('required', 'Email')
                   "
                 >
                   <input
-                    formControlName="email"
+                    formControlName="Email"
                     type="text"
                     placeholder="Email"
                     required
@@ -69,8 +69,8 @@
               </div>
               <small
                 *ngIf="
-                  loginForm.controls['email'].dirty &&
-                  loginForm.hasError('required', 'email')
+                  loginForm.controls['Email'].dirty &&
+                  loginForm.hasError('required', 'Email')
                 "
                 class="text-danger"
                 >*Email is required*</small

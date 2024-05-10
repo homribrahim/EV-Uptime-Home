@@ -1,0 +1,36 @@
+[
+    {
+        "id":1,
+        "name":"Eya Belghith",
+        "date":"03/04/2024 17:30",
+        "brand":"Audi",
+        "model":"R8",
+        "plugger":"EC Charger",
+        "charging_level":"Level 3",
+        "battery_power":60,
+        "status":"pending"
+        
+    },
+    {
+        "id":2,
+        "name":"Eya Eya",
+        "date":"03/02/2024 17:30",
+        "brand":"Bmw",
+        "model":"Dragon",
+        "plugger":"AC Charger",
+        "charging_level":"Level 2",
+        "battery_power":30,
+        "status":"pending"
+    },
+    {
+        "id":3,
+        "name":"Eya Eya Eya",
+        "date":"03/06/2024 17:30",
+        "brand":"Mercedes",
+        "model":"C200",
+        "plugger":"EC Charger",
+        "charging_level":"Level 3",
+        "battery_power":70,
+        "status":"pending"
+    }
+]

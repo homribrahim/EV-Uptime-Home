@@ -1,0 +1,24 @@
+.main-container {
+    display: flex;
+    .side-nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+      margin-left: 20px;
+      padding: 10px;
+      width: 250px;
+      min-width: 230px;
+      min-height: calc(100vh - 70px);
+      background-color:  rgb(252, 252, 252);
+      border: solid 1px #DAE3F8;  
+      @media only screen and (max-width: 1300px) {
+        width: 100px;
+        min-width: 100px;
+      }
+    }
+    .main {
+      padding: 50px;
+      width: 1400px;
+    }
+  }

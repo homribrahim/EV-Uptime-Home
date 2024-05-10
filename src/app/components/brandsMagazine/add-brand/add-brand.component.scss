@@ -1,0 +1,78 @@
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+
+input[type=date]:focus::-webkit-datetime-edit {
+    color: #9e9ea7 !important;
+}
+
+.user-box::placeholder {
+    color: #9e9ea7;
+   }
+
+.buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    gap: 20px;
+}
+.btn:nth-child(1)
+{
+    background-color: #00E69C;
+}
+.btn
+{
+    background-color: #f7335d;
+    height: 50px;
+    width: 270px;
+    color: white;
+    font-family: "Jomhuria", serif;
+    font-size: 1.8rem;
+}
+
+.login-box {
+
+    margin-top: 60px;
+    width: 100%;
+    /* transform: translate(-50%, -50%); */
+}
+
+.login-box h2 {
+    font-size: 24px;
+    margin-bottom: 60px;
+    padding: 0;
+    color: #fff;
+    text-align: left;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    font-size: 16px;
+    padding:5px;
+    color: gray;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(63, 63, 63);
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #f7335d;
+    font-size: 12px;
+}
